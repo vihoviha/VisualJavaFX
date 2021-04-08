@@ -16,7 +16,7 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
         Parent root = loader.load(getClass().getResource("../../main.fxml"));
-        stage.setTitle("Форма входу");
+        stage.setTitle("Замовлення морозива");
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
