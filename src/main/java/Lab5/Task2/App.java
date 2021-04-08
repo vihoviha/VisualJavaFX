@@ -1,4 +1,4 @@
-package Lab5;
+package Lab5.Task2;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        Parent root = loader.load(getClass().getResource("../main.fxml"));
+        Parent root = loader.load(getClass().getResource("../../main.fxml"));
         stage.setTitle("Форма входу");
         Scene scene = new Scene(root);
         stage.setScene(scene);
