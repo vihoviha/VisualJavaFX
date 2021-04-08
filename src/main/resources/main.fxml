@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Lab5.Task.MainController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane maxHeight="150.0" maxWidth="350.0" minHeight="150.0" minWidth="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab5.Task2.controller.MainController">
+    <Label layoutX="26.0" layoutY="27.0" mnemonicParsing="false" text="Ім'я користувача:" />
+   <TextField layoutX="157.0" layoutY="23.0" />
+   <TextField layoutX="157.0" layoutY="57.0" />
+   <Label layoutX="26.0" layoutY="61.0" text="Пароль:" />
+   <Button layoutX="149.0" layoutY="99.0" mnemonicParsing="false" text="Вхід" />
 </AnchorPane>
